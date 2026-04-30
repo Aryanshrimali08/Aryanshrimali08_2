@@ -33,13 +33,22 @@ permalink: /CSP-reflection/
       border-radius: 4px;
       color: #00ffe5;
     }
+    a {
+      color: #00ffe5;
+      text-decoration: none;
+      border-bottom: 1px dotted #00ffe5;
+    }
+    a:hover {
+      color: #38bdf8;
+      border-bottom: 1px solid #38bdf8;
+    }
   </style>
 </head>
 <body>
 
   <h2>Compare yourself to the beginning of the year</h2>
   <p>
-    In comparison to who I was at the beginning of the year, I have developed tremendously within the domain of Computer Science. As the Trimester progressed, I began to work on deeper implications concerning how data, algorithms, and coding shape the digital world. Through hands-on homework projects and collaborative team projects, such as <strong>Digital Famine</strong> and the hacks we completed with our initial teams, I learned to approach challenges systematically. Beyond programming, I gained insight into how computing impacts society, from Media Literacy to Cybersecurity skills, through our end-of-the-trimester project, the <strong>Digital Famine game</strong>. The skills I gained enabled me to be an efficient member of the end module team, contributing to the interface, end submodule programming, and much of the initial conceptualization and vision for how we wanted to carry out the game.
+    In comparison to who I was at the beginning of the year, I have developed tremendously within the domain of Computer Science. As the Trimester progressed, I began to work on deeper implications concerning how data, algorithms, and coding shape the digital world. Through hands-on homework projects and collaborative team projects, such as <strong><a href="http://127.0.0.1:4500/digital-famine/">Digital Famine</a></strong> and the hacks we completed with our initial teams, I learned to approach challenges systematically. Beyond programming, I gained insight into how computing impacts society, from Media Literacy to Cybersecurity skills, through our end-of-the-trimester project, the <strong><a href="http://127.0.0.1:4500/digital-famine/end/submodule_4/">Digital Famine End Submodule</a></strong>. The skills I gained enabled me to be an efficient member of the end module team, contributing to the interface, end submodule programming, and much of the initial conceptualization and vision for how we wanted to carry out the game.
   </p>
 
   <h2>Remember key things from 3 sprints (Tools, Fundamentals of JavaScript/Python, West Coast Travel, or Digital Famine)</h2>
@@ -48,11 +57,12 @@ permalink: /CSP-reflection/
 
   <p><strong>Fundamentals of JS/PY Lessons</strong> → I am confident that my choice to teach the 3.3 lesson alongside Maya was correct, as it enabled me to learn a lesson I regard as highly important thoroughly. I greatly appreciated the concept of the class serving as both the teacher and the student, facilitating the passing of information between each of us. My favorite lessons included developing algorithms, nested conditionals, and algorithmic efficiency, as I feel that these lessons broadened my skills within computer science the greatest amount.</p>
 
-  <p><strong>Digital Famine</strong> → Digital Famine was the final stepping stone, gathering the tools, experience, and coding skills we collectively developed, and creating a unique and honestly fun classroom project. It was insightful to see the abilities each of us had gained and how we chose to apply them within Digital Famine. I was invigorated to aid my team in the collaborative end submodules, adding my experience within submodules 4 and 5. Storyboarding the whole project genuinely felt like creating a real game in a design studio — an experience I would want to pursue again while integrating the skills I am sure I will gain over the next two trimesters in this class.</p>
+  <p><strong>Digital Famine</strong> → <a href="http://127.0.0.1:4500/digital-famine/">Digital Famine</a> was the final stepping stone, gathering the tools, experience, and coding skills we collectively developed, and creating a unique and honestly fun classroom project. It was insightful to see the abilities each of us had gained and how we chose to apply them within Digital Famine. I was invigorated to aid my team in the collaborative end submodules, adding my experience within <a href="http://127.0.0.1:4500/digital-famine/end/submodule_4/">submodules 4 and 5</a>. Storyboarding the whole project genuinely felt like creating a real game in a design studio — an experience I would want to pursue again while integrating the skills I am sure I will gain over the next two trimesters in this class. You can also view our <a href="https://github.com/orgs/P4CodeMaxxers/projects/7?pane=issue&itemId=135490299&issue=P4CodeMaxxers%7CdigitalFamine%7C16">GitHub project board</a> which tracks the issues and milestones for Digital Famine.
+  </p>
 
   <h2>How N@tM went? Did you get a comment or two you liked?</h2>
   <p>
-    N@tM was, in short, an excellent learning experience for me and my peers. As it was my first night at the museum, it was exciting to see how many different people I was teaching content to — parents and small kids alike. Seeing them figure out the different challenges across the four submodules we crafted was insightful, letting my team and me know what we must develop for future N@tMs and what we successfully integrated within <strong>Digital Famine</strong>.
+    N@tM was, in short, an excellent learning experience for me and my peers. As it was my first night at the museum, it was exciting to see how many different people I was teaching content to — parents and small kids alike. Seeing them figure out the different challenges across the four submodules we crafted was insightful, letting my team and me know what we must develop for future N@tMs and what we successfully integrated within <strong><a href="http://127.0.0.1:4500/digital-famine/">Digital Famine</a></strong>.
   </p>
 
   <h2>What do you want to learn next in CompSci?</h2>
@@ -62,13 +72,12 @@ permalink: /CSP-reflection/
 
   <h2>Analytics Review</h2>
   <p>
-    Over the course of the trimester, I have made <strong>28 major commits</strong>, created <strong>20 issues</strong>, and contributed <strong>+75,139 lines added</strong> and <strong>449 lines removed</strong> across the board. As I familiarized myself with my peers and the course, I started making more commits and contributions toward the team projects.
+    Over the course of the trimester, I have made <strong>28 major commits</strong>, created <strong>20 issues</strong>, and contributed <strong>+75,139 lines added</strong> and <strong>449 lines removed</strong> across the board. As I familiarized myself with my peers and the course, I started making more commits and contributions toward the team projects. You can explore some of this progress on our <a href="https://github.com/orgs/P4CodeMaxxers/projects/7?pane=issue&itemId=135490299&issue=P4CodeMaxxers%7CdigitalFamine%7C16">GitHub project tracking board</a>.
   </p>
 
   <h2>MCQ Review, Score, Correction, and Approach</h2>
   <p>
-    My original MCQ score, before any edits, was <strong>52/66</strong>.<br />
-    <br />
+    My original MCQ score, before any edits, was <strong>52/66</strong>.<br /><br />
     <strong>Missed questions → Correct answers & reasoning why I selected the wrong answer:</strong><br />
     23) A → B (Redundant routing impossible w/ one possible path from one device to another, only one possible path from P to S (P→R→Q→S))<br />
     27) A → B (Inserting Win ← true between line 9 and line 10 causes loop termination when the guess is correct.)<br />
@@ -88,3 +97,5 @@ permalink: /CSP-reflection/
 
 </body>
 </html>
+
+w
